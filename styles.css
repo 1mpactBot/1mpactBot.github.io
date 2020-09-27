@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #ecf4f3;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*1em=100% or 16px rem is root em rem doesnt adds with parent font size whereas em does */
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-top: 5px dotted #EAF6F6;
+  margin: 50px auto;
+  width: 70px;
+}
+p{
+  line-height: 2;
+}
+/*******************************************************/
+
+.top_container {
+  background-color: #ecf4f3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 200px
+}
+
+.pro-pic{
+  margin-top: 80px;
+  width: 20%;
+  border-radius: 100%;
+}
+.pro-pic:hover{
+  opacity: 0.75;
+}
+.footer-link{
+  color: #11999E;
+}
+.bb{
+  width:50%;
+  margin:50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.music{
+  width:50%;
+  margin:50px auto;  /* margin auto to re center it cuz width 50% karne ke baad wo aadhi screen me chala gya tha. */
+  text-align: right;
+  line-height: 2;
+}
+.basketball{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.music-pic{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.copyright{
+  color: #EAF6F6;
+}
+.btn{
+  color: white;
+  background-color: #66BFBF;
+  border-radius: 12px;
+  padding: 10px;
+  text-decoration: none;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.skills{
+  /* padding: 0 10%; */
+}
+
+.footer-link:hover{
+  color:white;
+}
